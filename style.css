@@ -1,0 +1,109 @@
+body {
+  background-color: #c40808;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  font-size: 15px;
+  line-height: 1-;
+  text-align: left;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 35px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-top: -10px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.Button a {
+  background-color: #c40808;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 45px;
+}
+
+.Button a:hover {
+  background-color: #7d0707;
+  transition-duration: 500ms;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 45px;
+}
+
+#profile-pic-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 300px;
+  overflow: hidden;
+  margin: auto;
+}
+
+#profile-pic {
+  width: 150px;
+  height: 185px;
+  margin-top: -10px;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+}
+
+.card {
+  padding: 50px;
+  margin: 50px;
+  box-shadow: 0px 0px 25px #600000;
+  background-color: white;
+  border-radius: 45px;
+}
+
+#card-align-center {
+  text-align: center;
+
+}
+
+#profile-pic-container {
+  margin-bottom: 50px;
+  margin-top: -10px;
+}
+
+#no-bullets {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.inline {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.fa-brands {
+  font-size: 35px;
+}
