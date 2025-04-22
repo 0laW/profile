@@ -290,3 +290,9 @@ h2 {
 .card-fade:hover .card-fade-heading {
   opacity: 0;
 }
+
+.full-width {
+  font-size: 60px;
+  color: #600000;
+  width: 100%;
+}
